@@ -1,0 +1,30 @@
+# Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Image Processing
+Pillow==11.1.0
+opencv-python-headless==4.11.0.86
+numpy==2.2.3
+scikit-image==0.25.1
+
+# EXIF / Metadata
+exifread==3.1.0
+
+# Scientific Computing
+scipy==1.15.2
+
+# Data Validation
+pydantic==2.9.2
+pydantic-settings==2.6.1
+
+# CORS
+starlette==0.41.3
+
+# Report Generation
+openpyxl==3.1.5
+
+# Utilities
+python-dateutil==2.9.0
+aiofiles==24.1.0

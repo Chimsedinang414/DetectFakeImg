@@ -1,0 +1,47 @@
+# Môi trường ảo (Virtual Environment)
+venv/
+env/
+.env_venv/
+.venv/
+
+# Build artifacts
+build/
+dist/
+
+# Biến môi trường và Bảo mật (TUYỆT ĐỐI KHÔNG PUSH CÁC FILE NÀY)
+.env
+.env.production
+.env.local
+*.pem
+*.key
+
+# Thư mục lưu trữ ảnh tạm thời & upload của User
+uploads/
+temp/
+media/
+*.heic
+*.jpg
+*.jpeg
+*.png
+
+# Python Cache & Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Môi trường IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac/Windows OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
